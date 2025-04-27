@@ -1,0 +1,2140 @@
+{
+  "categories": {
+    "indoor": {
+      "title": "Indoor Lighting Products",
+      "description": "Premium lighting solutions for interior spaces",
+      "families": {
+        "ceiling-recessed": {
+          "title": "Ceiling Recessed",
+          "description": "Sleek and modern recessed ceiling lights that blend seamlessly with your ceiling.",
+          "products": [
+            {
+              "id": "cr-1",
+              "name": "Dark Dots 2",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-1_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-1_1.png",
+                "/assets/images/indoor/cr/cr-1_2.png",
+                "/assets/images/indoor/cr/cr-1_3.png",
+                "/assets/images/indoor/cr/cr-1_4.png",
+                "/assets/images/indoor/cr/cr-1_5.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-2",
+              "name": "Dark Dots 3",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-2_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-2_1.png",
+                "/assets/images/indoor/cr/cr-2_2.png",
+                "/assets/images/indoor/cr/cr-2_3.png",
+                "/assets/images/indoor/cr/cr-2_4.png",
+                "/assets/images/indoor/cr/cr-2_5.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-3",
+              "name": "Dark Dots 5",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-3_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-3_1.png",
+                "/assets/images/indoor/cr/cr-3_2.png",
+                "/assets/images/indoor/cr/cr-3_3.png",
+                "/assets/images/indoor/cr/cr-3_4.png",
+                "/assets/images/indoor/cr/cr-3_5.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-4",
+              "name": "DARK KNITe AD M",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-4_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-4_1.png",
+                "/assets/images/indoor/cr/cr-4_2.png",
+                "/assets/images/indoor/cr/cr-4_3.png",
+                "/assets/images/indoor/cr/cr-4_4.png",
+                "/assets/images/indoor/cr/cr-4_5.png",
+                "/assets/images/indoor/cr/cr-4_6.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-5",
+              "name": "DARK KNITe AIR 2",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-5_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-5_1.png",
+                "/assets/images/indoor/cr/cr-5_2.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-6",
+              "name": "DARK KNITe AIR S",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-6_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-6_1.png",
+                "/assets/images/indoor/cr/cr-6_2.png",
+                "/assets/images/indoor/cr/cr-6_3.png",
+                "/assets/images/indoor/cr/cr-6_4.png",
+                "/assets/images/indoor/cr/cr-6_5.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-7",
+              "name": "DARK KNITe IP",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-7_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-7_1.png",
+                "/assets/images/indoor/cr/cr-7_2.png",
+                "/assets/images/indoor/cr/cr-7_3.png",
+                "/assets/images/indoor/cr/cr-7_4.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-8",
+              "name": "DARK KNITe L",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-8_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-8_1.png",
+                "/assets/images/indoor/cr/cr-8_2.png",
+                "/assets/images/indoor/cr/cr-8_3.png",
+                "/assets/images/indoor/cr/cr-8_4.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-9",
+              "name": "DARK KNITe M",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-9_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-9_1.png",
+                "/assets/images/indoor/cr/cr-9_2.png",
+                "/assets/images/indoor/cr/cr-9_3.png",
+                "/assets/images/indoor/cr/cr-9_4.png",
+                "/assets/images/indoor/cr/cr-9_5.png",
+                "/assets/images/indoor/cr/cr-9_6.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-10",
+              "name": "DARK KNITe OUT M",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-10_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-10_1.png",
+                "/assets/images/indoor/cr/cr-10_2.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-11",
+              "name": "DARK KNITe OUT M AD",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-11_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-11_1.png",
+                "/assets/images/indoor/cr/cr-11_2.png",
+                "/assets/images/indoor/cr/cr-11_3.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-12",
+              "name": "DARK KNITe S",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-12_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-12_1.png",
+                "/assets/images/indoor/cr/cr-12_2.png",
+                "/assets/images/indoor/cr/cr-12_3.png",
+                "/assets/images/indoor/cr/cr-12_4.png",
+                "/assets/images/indoor/cr/cr-12_5.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-13",
+              "name": "DK AIR TRACK L",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-13_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-13_1.png",
+                "/assets/images/indoor/cr/cr-13_2.png",
+                "/assets/images/indoor/cr/cr-13_3.png",
+                "/assets/images/indoor/cr/cr-13_4.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-14",
+              "name": "DK AIR TRACK M",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-14_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-14_1.png",
+                "/assets/images/indoor/cr/cr-14_2.png",
+                "/assets/images/indoor/cr/cr-14_3.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-15",
+              "name": "DARK KNITe XZ",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-15_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-15_1.png",
+                "/assets/images/indoor/cr/cr-15_2.png",
+                "/assets/images/indoor/cr/cr-15_3.png",
+                "/assets/images/indoor/cr/cr-15_4.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-16",
+              "name": "DK AIR TRACK S",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-16_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-16_1.png",
+                "/assets/images/indoor/cr/cr-16_2.png",
+                "/assets/images/indoor/cr/cr-16_3.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-17",
+              "name": "DK AIR TRACK S48",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-17_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-17_1.png",
+                "/assets/images/indoor/cr/cr-17_2.png",
+                "/assets/images/indoor/cr/cr-17_3.png",
+                "/assets/images/indoor/cr/cr-17_4.png",
+                "/assets/images/indoor/cr/cr-17_5.png",
+                "/assets/images/indoor/cr/cr-17_6.png",
+                "/assets/images/indoor/cr/cr-17_7.png",
+                "/assets/images/indoor/cr/cr-17_8.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              } 
+            },
+            {
+              "id": "cr-18",
+              "name": "DK AIR TRACK XL",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-18_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-18_1.png",
+                "/assets/images/indoor/cr/cr-18_2.png",
+                "/assets/images/indoor/cr/cr-18_3.png",
+                "/assets/images/indoor/cr/cr-18_4.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              }
+            },
+            {
+              "id": "cr-19",
+              "name": "ERIS AIR 9",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-19_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-19_1.png",
+                "/assets/images/indoor/cr/cr-19_2.jpg",
+                "/assets/images/indoor/cr/cr-19_3.png",
+                "/assets/images/indoor/cr/cr-19_4.png",
+                "/assets/images/indoor/cr/cr-19_5.jpg",
+                "/assets/images/indoor/cr/cr-19_6.png",
+                "/assets/images/indoor/cr/cr-19_7.png",
+                "/assets/images/indoor/cr/cr-19_8.png",
+                "/assets/images/indoor/cr/cr-19_9.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-20",
+              "name": "DK INFINITY 42",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-20_1.jpg",
+              "images": [
+                "/assets/images/indoor/cr/cr-20_1.jpg",
+                "/assets/images/indoor/cr/cr-20_2.jpg",
+                "/assets/images/indoor/cr/cr-20_3.jpg",
+                "/assets/images/indoor/cr/cr-20_4.jpg",
+                "/assets/images/indoor/cr/cr-20_5.jpg",
+                "/assets/images/indoor/cr/cr-20_6.jpg",
+                "/assets/images/indoor/cr/cr-20_7.jpg",
+                "/assets/images/indoor/cr/cr-20_8.jpg",
+                "/assets/images/indoor/cr/cr-20_9.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-21",
+              "name": "DK INFINITY 43",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-21_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-21_1.png",
+                "/assets/images/indoor/cr/cr-21_2.png",
+                "/assets/images/indoor/cr/cr-21_3.png",
+                "/assets/images/indoor/cr/cr-21_4.jpg",
+                "/assets/images/indoor/cr/cr-21_5.png",
+                "/assets/images/indoor/cr/cr-21_6.png",
+                "/assets/images/indoor/cr/cr-21_7.png",
+                "/assets/images/indoor/cr/cr-21_8.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-22",
+              "name": "DK INFINITY 44",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-22_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-22_1.png",
+                "/assets/images/indoor/cr/cr-22_2.png",
+                "/assets/images/indoor/cr/cr-22_3.png",
+                "/assets/images/indoor/cr/cr-22_4.png",
+                "/assets/images/indoor/cr/cr-22_5.png",
+                "/assets/images/indoor/cr/cr-22_6.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-23",
+              "name": "DK INFINITY 45",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-23_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-23_1.png",
+                "/assets/images/indoor/cr/cr-23_2.jpeg",
+                "/assets/images/indoor/cr/cr-23_3.jpeg",
+                "/assets/images/indoor/cr/cr-23_4.png",
+                "/assets/images/indoor/cr/cr-23_5.png",
+                "/assets/images/indoor/cr/cr-23_6.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-24",
+              "name": "DK INFINITY 46",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-24_1.jpeg",
+              "images": [
+                "/assets/images/indoor/cr/cr-24_1.jpeg",
+                "/assets/images/indoor/cr/cr-24_2.jpeg",
+                "/assets/images/indoor/cr/cr-24_3.png",
+                "/assets/images/indoor/cr/cr-24_4.png",
+                "/assets/images/indoor/cr/cr-24_5.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-25",
+              "name": "DK INFINITY 47",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-25_1.jpeg",
+              "images": [
+                "/assets/images/indoor/cr/cr-25_1.jpeg",
+                "/assets/images/indoor/cr/cr-25_2.png",
+                "/assets/images/indoor/cr/cr-25_3.png",
+                "/assets/images/indoor/cr/cr-25_4.png",
+                "/assets/images/indoor/cr/cr-25_5.jpeg",
+                "/assets/images/indoor/cr/cr-25_6.jpeg"
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-26",
+              "name": "DK INFINITY 48",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-26_1.jpeg",
+              "images": [
+                "/assets/images/indoor/cr/cr-26_1.jpeg",
+                "/assets/images/indoor/cr/cr-26_2.png",
+                "/assets/images/indoor/cr/cr-26_3.jpeg",
+                "/assets/images/indoor/cr/cr-26_4.png",
+                "/assets/images/indoor/cr/cr-26_5.jpeg",
+                "/assets/images/indoor/cr/cr-26_6.jpeg",
+                "/assets/images/indoor/cr/cr-26_7.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-27",
+              "name": "DK INFINITY 49",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-27_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-27_1.png",
+                "/assets/images/indoor/cr/cr-27_2.png",
+                "/assets/images/indoor/cr/cr-27_3.jpeg",
+                "/assets/images/indoor/cr/cr-27_4.jpeg",
+                "/assets/images/indoor/cr/cr-27_5.jpeg",
+                "/assets/images/indoor/cr/cr-27_6.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-28",
+              "name": "ERIS AIR D5",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-28_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-28_1.png",
+                "/assets/images/indoor/cr/cr-28_2.png",
+                "/assets/images/indoor/cr/cr-28_3.png",
+                "/assets/images/indoor/cr/cr-28_4.png",
+                "/assets/images/indoor/cr/cr-28_5.png",
+                "/assets/images/indoor/cr/cr-28_6.png",
+                "/assets/images/indoor/cr/cr-28_7.png",
+                "/assets/images/indoor/cr/cr-28_8.png",
+                "/assets/images/indoor/cr/cr-28_9.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "cr-29",
+              "name": "DK INFINITY 61",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-29_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-29_1.png",
+                "/assets/images/indoor/cr/cr-29_2.png",
+                "/assets/images/indoor/cr/cr-29_3.png",
+                "/assets/images/indoor/cr/cr-29_4.png",
+                "/assets/images/indoor/cr/cr-29_5.png",
+                "/assets/images/indoor/cr/cr-29_6.png",
+                "/assets/images/indoor/cr/cr-29_7.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-30",
+              "name": "DK INFINITY 62",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-30_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-30_1.png",
+                "/assets/images/indoor/cr/cr-30_2.png",
+                "/assets/images/indoor/cr/cr-30_3.png",
+                "/assets/images/indoor/cr/cr-30_4.png",
+                "/assets/images/indoor/cr/cr-30_5.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-31",
+              "name": "DK INFINITY 63",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-31_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-31_1.png",
+                "/assets/images/indoor/cr/cr-31_2.png",
+                "/assets/images/indoor/cr/cr-31_3.jpeg",
+                "/assets/images/indoor/cr/cr-31_4.png",
+                "/assets/images/indoor/cr/cr-31_5.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-32",
+              "name": "DK INFINITY 64",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-32_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-32_1.png",
+                "/assets/images/indoor/cr/cr-32_2.png",
+                "/assets/images/indoor/cr/cr-32_3.jpg",
+                "/assets/images/indoor/cr/cr-32_4.jpg",
+                "/assets/images/indoor/cr/cr-32_5.png",
+                "/assets/images/indoor/cr/cr-32_6.png",
+                "/assets/images/indoor/cr/cr-32_7.png",
+                "/assets/images/indoor/cr/cr-32_8.jpg",
+                "/assets/images/indoor/cr/cr-32_9.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },
+            {
+              "id": "cr-33",
+              "name": "DK INFINITY 65",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-33_1.jpeg",
+              "images": [
+                "/assets/images/indoor/cr/cr-33_1.jpeg",
+                "/assets/images/indoor/cr/cr-33_2.png",
+                "/assets/images/indoor/cr/cr-33_3.jpeg",
+                "/assets/images/indoor/cr/cr-33_4.png",
+                "/assets/images/indoor/cr/cr-33_5.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },  
+            {
+              "id": "cr-34",
+              "name": "DK INFINITY 66",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-34_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-34_1.png",
+                "/assets/images/indoor/cr/cr-34_2.png",
+                "/assets/images/indoor/cr/cr-34_3.png",
+                "/assets/images/indoor/cr/cr-34_4.png",
+                "/assets/images/indoor/cr/cr-34_5.png",
+                "/assets/images/indoor/cr/cr-34_6.png",
+                "/assets/images/indoor/cr/cr-34_7.jpg",
+                "/assets/images/indoor/cr/cr-34_8.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },  
+            {
+              "id": "cr-35",
+              "name": "DK INFINITY 67",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-35_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-35_1.png",
+                "/assets/images/indoor/cr/cr-35_2.png",
+                "/assets/images/indoor/cr/cr-35_3.jpeg",
+                "/assets/images/indoor/cr/cr-35_4.png",
+                "/assets/images/indoor/cr/cr-35_5.jpeg",
+                "/assets/images/indoor/cr/cr-35_6.png",
+                "/assets/images/indoor/cr/cr-35_7.png",
+                "/assets/images/indoor/cr/cr-35_8.jpg",
+                "/assets/images/indoor/cr/cr-35_9.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },  
+            {
+              "id": "cr-36",
+              "name": "DK INFINITY 68",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png"
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-37",
+              "name": "DK INFINITY 69",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-37_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-37_1.png",
+                "/assets/images/indoor/cr/cr-37_.png",
+                "/assets/images/indoor/cr/cr-37_3.png",
+                "/assets/images/indoor/cr/cr-37_4.jpeg",
+                "/assets/images/indoor/cr/cr-37_5.jpg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },  
+            {
+              "id": "cr-38",
+              "name": "DK INFINITY 81",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-38_1.jpeg",
+              "images": [
+                "/assets/images/indoor/cr/cr-38_1.jpeg",
+                "/assets/images/indoor/cr/cr-38_2.png",
+                "/assets/images/indoor/cr/cr-38_3.jpeg",
+                "/assets/images/indoor/cr/cr-38_4.png",
+                "/assets/images/indoor/cr/cr-38_5.jpg"
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-39",
+              "name": "DK INFINITY 82",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-39_1.jpeg",
+              "images": [
+                "/assets/images/indoor/cr/cr-39_1.jpeg",
+                "/assets/images/indoor/cr/cr-39_2.png",
+                "/assets/images/indoor/cr/cr-39_3.jpeg"
+              ],
+              "generalInformation": {
+                
+              } 
+            },  
+            {
+              "id": "cr-40",
+              "name": "DK INFINITY 83",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-40_1.jpeg",
+              "images": [
+                "/assets/images/indoor/cr/cr-40_1.jpeg",
+                "/assets/images/indoor/cr/cr-40_2.jpg",
+                "/assets/images/indoor/cr/cr-40_3.jpeg"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },  
+            {
+              "id": "cr-41",
+              "name": "DK INFINITY MOUNTS 40",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-41_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-41_1.png",
+                "/assets/images/indoor/cr/cr-41_2.png",
+                "/assets/images/indoor/cr/cr-41_3.jpeg",
+                "/assets/images/indoor/cr/cr-41_4.jpeg",
+                "/assets/images/indoor/cr/cr-41_5.jpeg",
+                "/assets/images/indoor/cr/cr-41_6.jpeg",
+                "/assets/images/indoor/cr/cr-41_7.jpeg",
+                "/assets/images/indoor/cr/cr-41_8.jpeg", 
+                "/assets/images/indoor/cr/cr-41_9.jpeg",
+                "/assets/images/indoor/cr/cr-41_10.jpeg",
+                "/assets/images/indoor/cr/cr-41_11.png",
+                "/assets/images/indoor/cr/cr-41_12.png",
+                "/assets/images/indoor/cr/cr-41_13.png",
+                "/assets/images/indoor/cr/cr-41_14.png",
+                "/assets/images/indoor/cr/cr-41_15.png"
+                
+              ],
+              "generalInformation": {
+                
+              }
+            }, 
+            {
+              "id": "cr-42",
+              "name": "DK INFINITY MOUNTS 60",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-42_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-42_1.png",
+                "/assets/images/indoor/cr/cr-42_2.png",
+                "/assets/images/indoor/cr/cr-42_3.jpeg",
+                "/assets/images/indoor/cr/cr-42_4.jpeg",
+                "/assets/images/indoor/cr/cr-42_5.png",
+                "/assets/images/indoor/cr/cr-42_6.png",
+                "/assets/images/indoor/cr/cr-42_7.png", 
+                "/assets/images/indoor/cr/cr-42_8.png",
+                "/assets/images/indoor/cr/cr-42_9.png",
+                "/assets/images/indoor/cr/cr-42_10.png",
+                "/assets/images/indoor/cr/cr-42_11.png",
+                "/assets/images/indoor/cr/cr-42_12.png",
+                "/assets/images/indoor/cr/cr-42_13.png",
+                "/assets/images/indoor/cr/cr-42_14.png",
+                "/assets/images/indoor/cr/cr-42_15.png",
+                "/assets/images/indoor/cr/cr-42_16.png",
+                "/assets/images/indoor/cr/cr-42_17.png",
+                "/assets/images/indoor/cr/cr-42_18.png"
+                
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-43",
+              "name": "DK INFINITY MOUNTS 80",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-43_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-43_1.png",
+                "/assets/images/indoor/cr/cr-43_2.png",
+                "/assets/images/indoor/cr/cr-43_3.png",
+                "/assets/images/indoor/cr/cr-43_4.png"
+                
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-44",
+              "name": "DK SOUL M",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-44_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-44_1.png",
+                "/assets/images/indoor/cr/cr-44_2.png",
+                "/assets/images/indoor/cr/cr-44_3.png"
+                
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-45",
+              "name": "DK SOUL TRACK M48",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-45_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-45_1.png",
+                "/assets/images/indoor/cr/cr-45_2.png",
+                "/assets/images/indoor/cr/cr-45_3.png",
+                "/assets/images/indoor/cr/cr-45_4.png"
+                
+              ],
+              "generalInformation": {
+                
+              }
+            },  
+            {
+              "id": "cr-46",
+              "name": "DK SOUL TRACK S48",
+              "description": "Minimalist recessed downlight with adjustable beam angle.",
+              "imageUrl": "/assets/images/indoor/cr/cr-46_1.png",
+              "images": [
+                "/assets/images/indoor/cr/cr-46_1.png",
+                "/assets/images/indoor/cr/cr-46_2.png",
+                "/assets/images/indoor/cr/cr-46_3.png",
+                "/assets/images/indoor/cr/cr-46_4.png",
+                "/assets/images/indoor/cr/cr-46_5.png",
+                "/assets/images/indoor/cr/cr-46_6.png",
+                "/assets/images/indoor/cr/cr-46_7.png",
+                "/assets/images/indoor/cr/cr-46_8.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Round",
+                "cutoutSize": "75mm",
+                "recessedDepth": "65mm",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-60°",
+                "adjustable": "Yes",
+                "dimension": "95mm",
+                "cutOut": "75mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "CR-1",
+                "systemPower": "9W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            }
+            
+          ]
+        },
+        "wall-recessed": {
+          "title": "Wall Recessed",
+          "description": "Discrete wall recessed lights for accent and ambient lighting.",
+          "products": [
+            {
+              "id": "wr-1",
+              "name": "WR-1 Wall Washer",
+              "description": "Recessed wall washer for accent lighting.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Recessed",
+                "cutoutShape": "Rectangular",
+                "cutoutSize": "90x40mm",
+                "recessedDepth": "50mm",
+                "ingressProtection": "IP20",
+                "adjustability": "No",
+                "beamAngle": "24°",
+                "adjustable": "No",
+                "dimension": "100x50mm",
+                "cutOut": "90x40mm",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "WR-1",
+                "systemPower": "8W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "wr-2",
+              "name": "WR-2 Wall Spot",
+              "description": "Adjustable wall spotlight for focused illumination.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€79.99",
+              "specs": {
+                "Wattage": "10W",
+                "Color Temperature": "2700K-6500K",
+                "Beam Angle": "15°-45° adjustable",
+                "Size": "80x80mm",
+                "Cut-out": "70x70mm"
+              }
+            }
+          ]
+        },
+        "wall-surface": {
+          "title": "Wall Surface Mounted",
+          "description": "Stylish wall-mounted fixtures for decorative and functional lighting.",
+          "products": [
+            {
+              "id": "ws-1",
+              "name": "WS-1 Wall Sconce",
+              "description": "Modern wall sconce with frosted glass diffuser.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Surface Mounted",
+                "cutoutShape": "N/A",
+                "cutoutSize": "N/A",
+                "recessedDepth": "N/A",
+                "ingressProtection": "IP20",
+                "adjustability": "No",
+                "beamAngle": "120°",
+                "adjustable": "No",
+                "dimension": "150x150mm",
+                "cutOut": "N/A",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "WS-1",
+                "systemPower": "12W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "220-240V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "ws-2",
+              "name": "WS-2 Wall Light",
+              "description": "Contemporary wall light with adjustable arm.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€99.99",
+              "specs": {
+                "Wattage": "15W",
+                "Color Temperature": "2700K-6500K",
+                "Size": "200x200mm",
+                "Projection": "150mm",
+                "Material": "Aluminum, PMMA"
+              }
+            }
+          ]
+        },
+        "track-48v": {
+          "title": "48V Track System",
+          "description": "Low voltage track lighting system for flexible illumination.",
+          "products": [
+            {
+              "id": "t48-1",
+              "name": "T48-1 Track Head",
+              "description": "Adjustable track head with precise beam control.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Track Mounted",
+                "cutoutShape": "N/A",
+                "cutoutSize": "N/A",
+                "recessedDepth": "N/A",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-45°",
+                "adjustable": "Yes",
+                "dimension": "100mm",
+                "cutOut": "N/A",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "T48-1",
+                "systemPower": "10W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "48V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "t48-2",
+              "name": "T48-2 Track System",
+              "description": "Complete 48V track system with power supply.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€149.99",
+              "specs": {
+                "Track Length": "2m",
+                "Max Load": "100W",
+                "Voltage": "48V",
+                "Material": "Aluminum",
+                "Includes": "Track, Power Supply, Connectors"
+              }
+            }
+          ]
+        },
+        "track-230v": {
+          "title": "230V Track System",
+          "description": "Standard voltage track lighting system for versatile illumination.",
+          "products": [
+            {
+              "id": "t230-1",
+              "name": "T230-1 Track Head",
+              "description": "Adjustable track head with precise beam control.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "generalInformation": {
+                "location": "Indoor",
+                "installation": "Track Mounted",
+                "cutoutShape": "N/A",
+                "cutoutSize": "N/A",
+                "recessedDepth": "N/A",
+                "ingressProtection": "IP20",
+                "adjustability": "Yes",
+                "beamAngle": "15°-45°",
+                "adjustable": "Yes",
+                "dimension": "100mm",
+                "cutOut": "N/A",
+                "finishing": "White/Black",
+                "ipRating": "IP20"
+              },
+              "finishes": {
+                "model": "T230-1",
+                "systemPower": "10W",
+                "cct": "3000K",
+                "lightControl": "Dimmable",
+                "cri": "90",
+                "gai": "85",
+                "housing": "Aluminum"
+              },
+              "lightsourceInformation": {
+                "lightsourceName": "LED",
+                "sdcm": "3",
+                "lm80": "Yes",
+                "ledTechnics": "SMD"
+              },
+              "requirements": {
+                "voltage": "230V",
+                "frequency": "50/60Hz",
+                "powerFactor": ">0.95",
+                "dimming": "0-10V"
+              }
+            },
+            {
+              "id": "t230-2",
+              "name": "T230-2 Track System",
+              "description": "Complete 230V track system with mounting hardware.",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€179.99",
+              "specs": {
+                "Track Length": "2m",
+                "Max Load": "200W",
+                "Voltage": "230V",
+                "Material": "Aluminum",
+                "Includes": "Track, Mounting Hardware, Connectors"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "outdoor": {
+      "title": "Outdoor Lighting Products",
+      "description": "Durable and stylish outdoor lighting solutions",
+      "families": {
+        "ceiling-recessed": {
+          "title": "Ceiling Recessed",
+          "description": "Weather-resistant recessed ceiling fixtures for outdoor spaces",
+          "products": [
+            {
+              "id": "ocr-1",
+              "name": "OCR-1 Recessed Downlight",
+              "description": "IP65 rated recessed downlight with adjustable beam angle",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€199.99",
+              "specs": {
+                "Wattage": "15W",
+                "Color Temperature": "2700K-6500K",
+                "Beam Angle": "15°-60° adjustable",
+                "IP Rating": "IP65",
+                "Material": "Stainless Steel"
+              }
+            }
+          ]
+        },
+        "ceiling-surface": {
+          "title": "Ceiling Surface Mounted",
+          "description": "Elegant surface-mounted ceiling fixtures for outdoor areas",
+          "products": [
+            {
+              "id": "ocs-1",
+              "name": "OCS-1 Surface Mount",
+              "description": "Modern surface mount fixture with tempered glass diffuser",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€179.99",
+              "specs": {
+                "Wattage": "20W",
+                "Color Temperature": "2700K-6500K",
+                "IP Rating": "IP65",
+                "Material": "Stainless Steel, Glass"
+              }
+            }
+          ]
+        },
+        "wall-recessed": {
+          "title": "Wall Recessed",
+          "description": "Discrete wall recessed fixtures for outdoor accent lighting",
+          "products": [
+            {
+              "id": "owr-1",
+              "name": "OWR-1 Wall Washer",
+              "description": "Recessed wall washer with wide beam angle",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€159.99",
+              "specs": {
+                "Wattage": "12W",
+                "Color Temperature": "2700K-6500K",
+                "IP Rating": "IP65",
+                "Material": "Stainless Steel"
+              }
+            }
+          ]
+        },
+        "wall-surface": {
+          "title": "Wall Surface Mounted",
+          "description": "Stylish wall-mounted fixtures for outdoor spaces",
+          "products": [
+            {
+              "id": "ows-1",
+              "name": "OWS-1 Wall Sconce",
+              "description": "Contemporary wall sconce with frosted glass",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€189.99",
+              "specs": {
+                "Wattage": "18W",
+                "Color Temperature": "2700K-6500K",
+                "IP Rating": "IP65",
+                "Material": "Stainless Steel, Glass"
+              }
+            }
+          ]
+        },
+        "floor-recessed": {
+          "title": "Floor Recessed",
+          "description": "Ground-recessed fixtures for pathway and landscape lighting",
+          "products": [
+            {
+              "id": "ofr-1",
+              "name": "OFR-1 Ground Light",
+              "description": "Recessed ground light with adjustable beam",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€169.99",
+              "specs": {
+                "Wattage": "10W",
+                "Color Temperature": "2700K-6500K",
+                "IP Rating": "IP67",
+                "Material": "Stainless Steel"
+              }
+            }
+          ]
+        },
+        "floor-surface": {
+          "title": "Floor Surface Mounted / Bollards",
+          "description": "Surface-mounted fixtures and bollards for outdoor illumination",
+          "products": [
+            {
+              "id": "ofs-1",
+              "name": "OFS-1 Bollard",
+              "description": "Modern LED bollard with frosted glass diffuser",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "€299.99",
+              "specs": {
+                "Wattage": "25W",
+                "Color Temperature": "2700K-6500K",
+                "IP Rating": "IP65",
+                "Material": "Stainless Steel, Glass",
+                "Height": "750mm"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "track": {
+      "title": "Track Lighting Systems",
+      "description": "Flexible and adjustable track lighting solutions",
+      "families": {
+        "track-heads": {
+          "title": "Track Heads",
+          "description": "Versatile track-mounted lighting heads",
+          "products": [
+            {
+              "id": "track-1",
+              "name": "Adjustable Track Head",
+              "description": "360-degree adjustable track lighting",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "$89.99",
+              "specs": {
+                "material": "Aluminum",
+                "dimensions": "4\" diameter",
+                "bulbType": "MR16 LED",
+                "color": "Black"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "modules": {
+      "title": "Modular Lighting Systems",
+      "description": "Customizable modular lighting solutions",
+      "families": {
+        "linear-modules": {
+          "title": "Linear Modules",
+          "description": "Flexible linear lighting modules",
+          "products": [
+            {
+              "id": "module-1",
+              "name": "Linear LED Module",
+              "description": "Versatile linear lighting module",
+              "imageUrl": "/assets/images/landlite-logo.png",
+              "images": [
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png",
+                "/assets/images/landlite-logo.png"
+              ],
+              "price": "$249.99",
+              "specs": {
+                "material": "Aluminum",
+                "dimensions": "48\" length x 2\" width x 1\" height",
+                "bulbType": "Integrated LED",
+                "color": "White"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+} 

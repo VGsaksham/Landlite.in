@@ -1,0 +1,151 @@
+/* Universal Styles */
+:root {
+    /* Colors */
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --accent-color: #007bff;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --background-light: #f5f5f5;
+    --background-dark: #222222;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+    
+    /* Other */
+    --border-radius: 4px;
+    --transition: all 0.3s ease;
+    
+    /* Z-index hierarchy */
+    --z-base: 1;
+    --z-header: 10;
+    --z-dropdown: 100;
+    --z-modal: 1000;
+    --z-mobile-menu: 2000;
+    --z-hamburger: 2100;
+    --z-close-button: 2200;
+}
+
+/* Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    overflow-y: scroll; /* Ensure page remains scrollable */
+}
+
+html::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--text-primary);
+    overflow-x: hidden;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    position: relative;
+}
+
+/* Style for when mobile menu is open */
+body.mobile-menu-open {
+    overflow: hidden !important;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+}
+
+/* Ensure the hamburger remains visible when mobile menu is open */
+body.mobile-menu-open .hamburger {
+    z-index: var(--z-hamburger) !important;
+}
+
+/* Overlay backdrop for mobile menu */
+.mobile-menu::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Fix for mobile navigation hierarchy */
+.hamburger {
+    z-index: var(--z-hamburger) !important;
+}
+
+.mobile-menu {
+    z-index: var(--z-mobile-menu) !important;
+}
+
+.close-mobile-menu {
+    z-index: var(--z-close-button) !important;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+    margin-bottom: var(--spacing-sm);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: var(--spacing-sm);
+} 
