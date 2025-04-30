@@ -82,4 +82,4 @@ This project is private and meant for demonstration purposes only.
 
 ## Acknowledgements
 
-This project is a conversion from the original HTML/CSS Landlite website. 
+This project is a conversion from the original HTML/CSS Landlite website.
