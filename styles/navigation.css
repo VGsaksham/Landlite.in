@@ -1,0 +1,803 @@
+/* Header & Navigation Styles */
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+    pointer-events: none;
+}
+
+header.scrolled {
+    background-color: transparent;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    transition: var(--transition);
+    pointer-events: none;
+    padding-top: 10px;
+}
+
+.nav-bar {
+    transition: width 0.2s ease-in-out,
+                background-color 0.3s ease,
+                opacity 0.3s ease 0.2s,
+                visibility 0s linear 0.2s;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    backdrop-filter: blur(8px);
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1000;
+}
+
+.nav-bar-1 {
+    width: 100%;
+    height: 85px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-bar-2 {
+    width: 80%;
+    height: 80px;
+    background-color: rgba(80, 80, 80, 0.5);
+}
+
+.nav-bar-3 {
+    width: 60%;
+    height: 75px;
+    background-color: rgba(160, 160, 160, 0.5);
+    color: var(--primary-color);
+}
+
+.nav-bar-4 {
+    width: 40%;
+    height: 75px;
+    margin-top: 5px;
+    background-color: rgba(200, 200, 200, 0.5);
+    color: var(--primary-color);
+}
+
+.nav-bar:hover {
+    background-color: rgba(180, 180, 180, 0.7);
+    color: var(--primary-color);
+}
+
+.nav-bar-1:hover {
+    background-color: rgba(10, 10, 10, 0.8);
+    color: var(--secondary-color);
+}
+
+.logo {
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, opacity 0.4s ease, background-color 0.4s ease, box-shadow 0.4s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+    pointer-events: auto;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Logo behavior when scrolling down/up */
+body.scrolling-down .logo {
+    transform: translateY(-100px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+body.scrolling-up .logo {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Reset logo position and make transparent at hero section */
+body.at-hero:not(.scrolled) .logo {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* Expanded Navigation */
+.expanded-nav-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1002;
+    overflow: hidden;
+    transition: width 0.2s ease-in-out, visibility 0s linear 0.2s;
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary-color);
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.expanded-nav-content.active {
+    visibility: visible;
+    transition: width 0.2s ease-in-out;
+}
+
+/* Hide regular nav bars when expanded */
+.navbar.expanded .nav-bar {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0s linear 0.2s;
+}
+
+/* Base nav bar transitions */
+.nav-bar {
+    transition: width 0.2s ease-in-out,
+                background-color 0.3s ease,
+                opacity 0.3s ease 0.2s,
+                visibility 0s linear 0.2s;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    letter-spacing: 0.15em;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    backdrop-filter: blur(8px);
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+    pointer-events: auto;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1000;
+}
+
+/* Ensure expanded nav closes completely before showing nav bars */
+.navbar.expanded .expanded-nav-content {
+    width: 50%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 20px;
+    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: width 0.2s ease-in-out;
+    visibility: visible;
+}
+
+.expanded-nav-content .expanded-nav-header {
+    position: relative;
+    z-index: 1003;
+}
+
+.expanded-nav-content .expanded-nav-links {
+    position: relative;
+    z-index: 1003;
+    background-color: inherit;
+}
+
+/* Match the expanded navigation colors with the original nav bars */
+.expanded-nav-content.nav-bar-1-expanded .expanded-nav-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 85px;
+    display: flex;
+    align-items: center;
+    padding: 4rem 3rem 2rem;
+}
+
+.expanded-nav-content.nav-bar-2-expanded .expanded-nav-header {
+    background-color: rgba(80, 80, 80, 0.5);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 4rem 3rem 2rem;
+}
+
+.expanded-nav-content.nav-bar-3-expanded .expanded-nav-header {
+    background-color: rgba(160, 160, 160, 0.5);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 4rem 3rem 2rem;
+}
+
+.expanded-nav-content.nav-bar-4-expanded .expanded-nav-header {
+    background-color: rgba(200, 200, 200, 0.5);
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 4rem 3rem 2rem;
+}
+
+/* Content background should also have a hint of the color */
+.expanded-nav-content.nav-bar-1-expanded {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.expanded-nav-content.nav-bar-2-expanded {
+    background-color: rgba(80, 80, 80, 0.85);
+}
+
+.expanded-nav-content.nav-bar-3-expanded {
+    background-color: rgba(160, 160, 160, 0.85);
+}
+
+.expanded-nav-content.nav-bar-4-expanded {
+    background-color: rgba(100, 100, 100, 0.85);
+}
+
+/* When in light section */
+body.light-section .expanded-nav-content.nav-bar-1-expanded .expanded-nav-header {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body.light-section .expanded-nav-content.nav-bar-2-expanded .expanded-nav-header {
+    background-color: rgba(70, 70, 70, 0.4);
+}
+
+body.light-section .expanded-nav-content.nav-bar-3-expanded .expanded-nav-header {
+    background-color: rgba(140, 140, 140, 0.4);
+}
+
+body.light-section .expanded-nav-content.nav-bar-4-expanded .expanded-nav-header {
+    background-color: rgba(180, 180, 180, 0.4);
+}
+
+/* Text color adjustments */
+.expanded-nav-content.nav-bar-3-expanded .expanded-nav-title,
+.expanded-nav-content.nav-bar-3-expanded .close-nav-btn,
+.expanded-nav-content.nav-bar-4-expanded .expanded-nav-title,
+.expanded-nav-content.nav-bar-4-expanded .close-nav-btn {
+    color: var(--primary-color);
+}
+
+body.light-section .expanded-nav-content.nav-bar-3-expanded .expanded-nav-title,
+body.light-section .expanded-nav-content.nav-bar-3-expanded .close-nav-btn,
+body.light-section .expanded-nav-content.nav-bar-4-expanded .expanded-nav-title,
+body.light-section .expanded-nav-content.nav-bar-4-expanded .close-nav-btn {
+    color: var(--primary-color);
+}
+
+.expanded-nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 3rem 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.expanded-nav-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    padding-top: 2rem;
+    margin: 0;
+    flex: 1;
+    text-align: left;
+}
+
+.close-nav-btn {
+    background: none;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.close-nav-btn:hover {
+    transform: rotate(90deg);
+}
+
+.expanded-nav-links {
+    padding: 3rem 2rem;
+    overflow-y: auto;
+}
+
+.nav-section {
+    display: none;
+}
+
+.nav-section.active {
+    display: block;
+}
+
+.nav-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-section li {
+    margin-bottom: 1.5rem;
+}
+
+.nav-section a {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.nav-section a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    transform: translateX(10px);
+}
+
+/* Remove the active nav bar display when expanded */
+.navbar.expanded .nav-bar.active {
+    display: none;
+}
+
+/* Light section nav bars - make them slightly darker */
+body.light-section .nav-bar-1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--secondary-color);
+}
+
+body.light-section .nav-bar-2 {
+    background-color: rgba(70, 70, 70, 0.4);
+    color: var(--secondary-color);
+}
+
+body.light-section .nav-bar-3 {
+    background-color: rgba(140, 140, 140, 0.4);
+    color: var(--primary-color);
+}
+
+body.light-section .nav-bar-4 {
+    background-color: rgba(180, 180, 180, 0.4);
+    color: var(--primary-color);
+}
+
+body.light-section .nav-bar-1:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body.light-section .nav-bar-2:hover,
+body.light-section .nav-bar-3:hover,
+body.light-section .nav-bar-4:hover {
+    background-color: rgba(150, 150, 150, 0.4);
+}
+
+/* Individual navbar hover widths instead of all 70% */
+.nav-bar-1:hover {
+    width: 100% !important;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease;
+}
+
+.nav-bar-2:hover {
+    width: 80% !important;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease;
+}
+
+.nav-bar-3:hover {
+    width: 60% !important;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease;
+}
+
+.nav-bar-4:hover {
+    width: 40% !important;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease;
+}
+
+/* Scrolled state adjustments */
+body.scrolled .nav-bar {
+    padding: 15px 5px;
+}
+
+body.scrolled .nav-bar-1 {
+    width: 60px;
+}
+
+body.scrolled .nav-bar-2 {
+    width: 60px;
+}
+
+body.scrolled .nav-bar-3 {
+    width: 60px;
+}
+
+body.scrolled .nav-bar-4 {
+    width: 60px;
+}
+
+/* Media query adjustments for scrolled state */
+@media (max-width: 992px) {
+    body.scrolled .nav-bar-1 {
+        width: 60px;
+    }
+    
+    body.scrolled .nav-bar-2 {
+        width: 60px;
+    }
+    
+    body.scrolled .nav-bar-3 {
+        width: 60px;
+    }
+    
+    body.scrolled .nav-bar-4 {
+        width: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    body.scrolled .nav-bar-1 {
+        width: 60px;
+    }
+    
+    body.scrolled .nav-bar-2 {
+        width: 60px;
+    }
+    
+    body.scrolled .nav-bar-3 {
+        width: 60px;
+    }
+    
+    body.scrolled .nav-bar-4 {
+        width: 60px;
+    }
+}
+
+/* Hide text when collapsed */
+body.scrolled .nav-bar {
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Show text again on hover */
+body.scrolled .nav-bar:hover {
+    text-indent: 0;
+    padding: 15px 25px;
+}
+
+/* Ensure smooth transitions */
+.nav-bar {
+    transition: width 0.2s ease-in-out, background-color 0.3s ease;
+}
+
+/* Non-homepage navigation styles - make them 65% of original width */
+.navbar.non-home-page .nav-bar-1 {
+    width: 65%;
+}
+
+.navbar.non-home-page .nav-bar-2 {
+    width: 52%; /* 65% of 80% */
+}
+
+.navbar.non-home-page .nav-bar-3 {
+    width: 39%; /* 65% of 60% */
+}
+
+.navbar.non-home-page .nav-bar-4 {
+    width: 26%; /* 65% of 40% */
+}
+
+/* Hover styles for non-homepage navigation */
+.navbar.non-home-page .nav-bar-1:hover {
+    width: 65% !important;
+}
+
+.navbar.non-home-page .nav-bar-2:hover {
+    width: 52% !important;
+}
+
+.navbar.non-home-page .nav-bar-3:hover {
+    width: 39% !important;
+}
+
+.navbar.non-home-page .nav-bar-4:hover {
+    width: 26% !important;
+}
+
+/* When scrolled, use the same reduced widths as the homepage */
+.navbar.non-home-page.scrolled .nav-bar-1,
+body.scrolled .navbar.non-home-page .nav-bar-1 {
+    width: 60px;
+}
+
+.navbar.non-home-page.scrolled .nav-bar-2,
+body.scrolled .navbar.non-home-page .nav-bar-2 {
+    width: 60px;
+}
+
+.navbar.non-home-page.scrolled .nav-bar-3,
+body.scrolled .navbar.non-home-page .nav-bar-3 {
+    width: 60px;
+}
+
+.navbar.non-home-page.scrolled .nav-bar-4,
+body.scrolled .navbar.non-home-page .nav-bar-4 {
+    width: 60px;
+}
+
+/* Product page navbar styling - remain collapsed by default with consistent width */
+body:has(.product-detail-page) .navbar .nav-bar-1,
+.product-detail-page ~ header .navbar .nav-bar-1,
+body.scrolled:has(.product-detail-page) .navbar .nav-bar-1,
+body.scrolled .product-detail-page ~ header .navbar .nav-bar-1 {
+    width: 60px !important; /* !important to override any other styles */
+    padding: 15px 5px;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+body:has(.product-detail-page) .navbar .nav-bar-2,
+.product-detail-page ~ header .navbar .nav-bar-2,
+body.scrolled:has(.product-detail-page) .navbar .nav-bar-2,
+body.scrolled .product-detail-page ~ header .navbar .nav-bar-2 {
+    width: 60px !important; /* !important to override any other styles */
+    padding: 15px 5px;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+body:has(.product-detail-page) .navbar .nav-bar-3,
+.product-detail-page ~ header .navbar .nav-bar-3,
+body.scrolled:has(.product-detail-page) .navbar .nav-bar-3,
+body.scrolled .product-detail-page ~ header .navbar .nav-bar-3 {
+    width: 60px !important; /* !important to override any other styles */
+    padding: 15px 5px;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+body:has(.product-detail-page) .navbar .nav-bar-4,
+.product-detail-page ~ header .navbar .nav-bar-4,
+body.scrolled:has(.product-detail-page) .navbar .nav-bar-4,
+body.scrolled .product-detail-page ~ header .navbar .nav-bar-4 {
+    width: 60px !important; /* !important to override any other styles */
+    padding: 15px 5px;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Show text on hover for product pages - match non-home page widths with proper text transition */
+body:has(.product-detail-page) .navbar .nav-bar-1:hover,
+.product-detail-page ~ header .navbar .nav-bar-1:hover {
+    width: 65% !important;
+    padding: 15px 25px;
+    text-indent: 0;
+    overflow: visible;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease, text-indent 0s linear 0.2s; /* Delay text appearance */
+}
+
+body:has(.product-detail-page) .navbar .nav-bar-2:hover,
+.product-detail-page ~ header .navbar .nav-bar-2:hover {
+    width: 52% !important;
+    padding: 15px 25px;
+    text-indent: 0;
+    overflow: visible;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease, text-indent 0s linear 0.2s; /* Delay text appearance */
+}
+
+body:has(.product-detail-page) .navbar .nav-bar-3:hover,
+.product-detail-page ~ header .navbar .nav-bar-3:hover {
+    width: 39% !important;
+    padding: 15px 25px;
+    text-indent: 0;
+    overflow: visible;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease, text-indent 0s linear 0.2s; /* Delay text appearance */
+}
+
+body:has(.product-detail-page) .navbar .nav-bar-4:hover,
+.product-detail-page ~ header .navbar .nav-bar-4:hover {
+    width: 26% !important;
+    padding: 15px 25px;
+    text-indent: 0;
+    overflow: visible;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease, text-indent 0s linear 0.2s; /* Delay text appearance */
+}
+
+/* General hover rule for all navbars to ensure text appears only after expansion */
+.nav-bar {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+body.scrolled .nav-bar:hover {
+    text-indent: 0;
+    padding: 15px 25px;
+    transition: width 0.4s ease-in-out, background-color 0.3s ease, text-indent 0s linear 0.2s;
+}
+
+body.scrolled .nav-bar {
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 0.2s ease-in-out, background-color 0.3s ease, text-indent 0s;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 992px) {
+  /* Hide desktop navigation on mobile devices */
+  .navbar {
+    display: none !important;
+  }
+  
+  /* Adjust the logo position for mobile */
+  .logo {
+    left: 20px;
+    top: 20px;
+    position: fixed;
+    z-index: 90;
+  }
+  
+  .logo img {
+    width: 120px;
+    height: auto;
+  }
+  
+  /* Ensure the header doesn't take up space on mobile */
+  header {
+    pointer-events: none;
+    justify-content: flex-start;
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    left: 15px;
+    top: 15px;
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+}
+
+/* End of file */
+
+/* Collapsed navbar styles with letters */
+body.scrolled .nav-bar {
+    position: relative;
+}
+
+/* Common styles for all letters */
+body.scrolled .nav-bar::before {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+}
+
+body.scrolled .nav-bar-1::before {
+    content: 'I';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    opacity: 1 !important;
+    z-index: 1001;
+    text-indent: 0;
+    pointer-events: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+body.scrolled .nav-bar-2::before {
+    content: 'P';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    opacity: 1 !important;
+    z-index: 1001;
+    text-indent: 0;
+    pointer-events: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+body.scrolled .nav-bar-3::before {
+    content: 'A';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    opacity: 1 !important;
+    z-index: 1001;
+    text-indent: 0;
+    pointer-events: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+body.scrolled .nav-bar-4::before {
+    content: 'O';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--secondary-color);
+    opacity: 1 !important;
+    z-index: 1001;
+    text-indent: 0;
+    pointer-events: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Add subtle animation on scroll */
+@keyframes letterPulse {
+    0% { transform: translate(-50%, -50%) scale(1); }
+    50% { transform: translate(-50%, -50%) scale(1.1); }
+    100% { transform: translate(-50%, -50%) scale(1); }
+}
+
+body.scrolled .nav-bar:hover::before {
+    opacity: 0 !important;
+    transition: all 0.3s ease;
+}
+
+/* Add animation when navbar first collapses */
+body.scrolled .nav-bar::before {
+    animation: letterPulse 0.6s ease-out;
+} 

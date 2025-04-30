@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Our History",
+    "subtitle": "A legacy of innovation in architectural lighting"
+  },
+  "intro": {
+    "title": "Our Journey",
+    "content": "Since our founding in 1985, Landlite has been at the forefront of architectural lighting innovation. What began as a small studio with a passion for design has evolved into a global presence, creating iconic lighting solutions that transform spaces around the world."
+  },
+  "timeline": [
+    {
+      "year": "1985",
+      "title": "The Beginning",
+      "content": "Founded by Thomas Keller, a visionary architect with a passion for how light shapes space, Landlite began as a small design studio in New York City focused on custom lighting solutions for residential projects.",
+      "image": "/assets/images/landlite_test1.jpg"
+    },
+    {
+      "year": "1992",
+      "title": "First Major Collection",
+      "content": "The launch of our 'Cascade' pendant series marked our transition from custom projects to our first commercially available collection, establishing Landlite's signature minimalist aesthetic.",
+      "image": "/assets/images/landlite_test2.jpg"
+    },
+    {
+      "year": "1998",
+      "title": "International Expansion",
+      "content": "Opening our first European showroom in Milan, Italy, bringing Landlite's distinctive design language to an international audience and collaborating with renowned European architects.",
+      "image": "/assets/images/landlite_test3.jpg"
+    },
+    {
+      "year": "2005",
+      "title": "Technological Innovation",
+      "content": "Pioneered the integration of LED technology into architectural lighting, setting new standards for energy efficiency without compromising on design aesthetics or light quality.",
+      "image": "/assets/images/landlite_test4.jpg"
+    },
+    {
+      "year": "2012",
+      "title": "Museum of Modern Art Exhibition",
+      "content": "Our 'Light as Form' collection was featured in a dedicated exhibition at the Museum of Modern Art, recognizing Landlite's contribution to design at the intersection of art and functionality.",
+      "image": "/assets/images/landlite_test5.jpg"
+    },
+    {
+      "year": "2018",
+      "title": "Sustainability Initiative",
+      "content": "Launched our 'Circular Light' program, committing to sustainable production methods, recyclable materials, and a product lifecycle management system that minimizes environmental impact.",
+      "image": "/assets/images/landlite_test6.jpg"
+    },
+    {
+      "year": "Present",
+      "title": "Looking to the Future",
+      "content": "Today, Landlite continues to push boundaries in architectural lighting, exploring new technologies, materials, and design approaches to create lighting instruments that inspire and transform spaces around the world.",
+      "image": "/assets/images/landlite_test1.jpg"
+    }
+  ],
+  "quote": {
+    "text": "Light reveals architecture, and architecture gives meaning to light. In this dialogue between the two, we find the essence of our work.",
+    "author": "Thomas Keller, Founder"
+  }
+} 

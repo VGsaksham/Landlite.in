@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "Landlite - Premium Architectural Lighting Solutions",
+    "description": "Landlite - Premium lighting instruments for architecture. Discover our elegant lighting solutions for modern architectural spaces and interior design projects.",
+    "keywords": "landlite, architectural lighting, interior lighting, design lighting, modern lighting, pendant lights, ceiling fixtures, wall lights, custom lighting",
+    "author": "Landlite",
+    "og": {
+      "title": "Landlite - Premium Architectural Lighting Solutions",
+      "description": "Discover Landlite's premium lighting instruments for architecture - creating the perfect light experience in architectural environments.",
+      "type": "website",
+      "url": "https://www.landlite.com/",
+      "image": "/assets/images/landlite-og-image.jpg"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Landlite - Premium Architectural Lighting Solutions",
+      "description": "Discover Landlite's premium lighting instruments for architecture - creating the perfect light experience in architectural environments.",
+      "image": "/assets/images/landlite-og-image.jpg"
+    },
+    "robots": "index, follow",
+    "googlebot": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
+    "canonical": "https://www.landlite.com/"
+  },
+  "hero": {
+    "title": "Lighting Instruments for Architecture",
+    "subtitle": "Creating the perfect light experience in architectural environments",
+    "cta": {
+      "text": "Discover More",
+      "link": "/contact",
+      "title": "Learn more about our lighting solutions"
+    }
+  },
+  "gallery": {
+    "title": "Our Portfolio",
+    "items": [
+      {
+        "name": "Minimalist Pendant Light",
+        "description": "Elegant simplicity with focused illumination for modern spaces. Our pendant lights combine sleek design with precise light control.",
+        "image": "/assets/images/landlite_test1.JPG",
+        "url": "/products/minimalist-pendant"
+      },
+      {
+        "name": "Modern Ceiling Installation",
+        "description": "Geometric patterns creating dramatic shadows and ambiance in architectural spaces.",
+        "image": "/assets/images/landlite_test2.JPG",
+        "url": "/products/ceiling-installation"
+      },
+      {
+        "name": "Contemporary Wall Mount",
+        "description": "Sleek wall fixture providing both direct and ambient lighting for versatile illumination.",
+        "image": "/assets/images/landlite_test3.JPG",
+        "url": "/products/wall-mount"
+      }
+    ]
+  },
+  "structuredData": {
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Landlite",
+      "url": "https://www.landlite.com/",
+      "logo": "/assets/images/landlite-logo.png",
+      "description": "Premium lighting instruments for architecture, creating the perfect light experience in architectural environments.",
+      "sameAs": [
+        "https://www.instagram.com/landlite",
+        "https://www.linkedin.com/company/landlite",
+        "https://www.pinterest.com/landlite"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Design Avenue",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10001",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+12125551234",
+        "contactType": "customer service",
+        "availableLanguage": ["English"]
+      }
+    }
+  }
+} 
