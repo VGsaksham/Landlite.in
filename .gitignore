@@ -53,4 +53,4 @@ yarn-error.log*
 *.swo
 
 # OS files
-Thumbs.db 
+Thumbs.db git-sync.bat
