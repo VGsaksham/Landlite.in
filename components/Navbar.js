@@ -1,10 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
  
 
 export default function Navbar() {
-  const router = useRouter();
   const [activeNav, setActiveNav] = useState(null);
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
