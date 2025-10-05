@@ -1,0 +1,58 @@
+[auto-sync] Starting auto sync
+[auto-sync] RUN: git --version
+[auto-sync] OUT: git version 2.49.0.windows.1
+[auto-sync] RUN: git rev-parse --show-toplevel
+[auto-sync] OUT: C:/Users/hp/OneDrive/Desktop/sites/transfer/landlite.transfer
+[auto-sync] Repo root: C:/Users/hp/OneDrive/Desktop/sites/transfer/landlite.transfer
+[auto-sync] RUN: git remote get-url origin
+[auto-sync] OUT: https://github.com/VGsaksham/Landlite.in.git
+[auto-sync] Remote origin ensured: https://github.com/VGsaksham/Landlite.in.git
+[auto-sync] RUN: git fetch origin
+[auto-sync] RUN: git rev-parse --verify main
+[auto-sync] OUT: 0c8e3780be153ac3714bf547440a97c3820b4088
+[auto-sync] RUN: git checkout main
+[auto-sync] OUT: M	.gitignore
+A	scripts/auto_sync.py
+A	scripts/sync.log
+A	sync_repo.bat
+Your branch is up to date with 'origin/main'.
+[auto-sync] ERR: Switched to branch 'main'
+[auto-sync] RUN: git pull --rebase origin main
+[auto-sync] ERR: error: cannot pull with rebase: You have unstaged changes.
+error: additionally, your index contains uncommitted changes.
+error: Please commit or stash them.
+[auto-sync] Pulled latest on base branch: main
+[auto-sync] RUN: git status --porcelain=v1
+[auto-sync] OUT: M  .gitignore
+AM scripts/auto_sync.py
+A  scripts/sync.log
+A  sync_repo.bat
+[auto-sync] RUN: git config user.name
+[auto-sync] OUT: VGsaksham
+[auto-sync] RUN: git config user.email
+[auto-sync] OUT: sakshambhown1920@gmail.com
+[auto-sync] RUN: git checkout -b auto/sync-20251005-172029
+[auto-sync] ERR: Switched to a new branch 'auto/sync-20251005-172029'
+[auto-sync] RUN: git add -A
+[auto-sync] ERR: warning: in the working copy of 'scripts/auto_sync.py', LF will be replaced by CRLF the next time Git touches it
+[auto-sync] RUN: git commit -m "chore(auto-sync): update at 2025-10-05T17:20:29.628919Z"
+[auto-sync] OUT: [auto/sync-20251005-172029 5ad7f22] chore(auto-sync): update at 2025-10-05T17:20:29.628919Z
+ 4 files changed, 239 insertions(+), 1 deletion(-)
+ create mode 100644 scripts/auto_sync.py
+ create mode 100644 scripts/sync.log
+ create mode 100644 sync_repo.bat
+[auto-sync] RUN: git push -u origin auto/sync-20251005-172029
+[auto-sync] OUT: branch 'auto/sync-20251005-172029' set up to track 'origin/auto/sync-20251005-172029'.
+[auto-sync] ERR: remote: 
+remote: Create a pull request for 'auto/sync-20251005-172029' on GitHub by visiting:        
+remote:      https://github.com/VGsaksham/Landlite.in/pull/new/auto/sync-20251005-172029        
+remote: 
+To https://github.com/VGsaksham/Landlite.in.git
+ * [new branch]      auto/sync-20251005-172029 -> auto/sync-20251005-172029
+[auto-sync] RUN: git remote get-url origin
+[auto-sync] OUT: https://github.com/VGsaksham/Landlite.in.git
+[auto-sync] RUN: gh --version
+[auto-sync] ERR: 'gh' is not recognized as an internal or external command,
+operable program or batch file.
+[auto-sync] No GH_TOKEN set and gh not found; skipping PR creation.
+[auto-sync] Pushed branch auto/sync-20251005-172029. If permissions allow, a PR has been created.
