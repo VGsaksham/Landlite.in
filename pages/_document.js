@@ -153,10 +153,20 @@ class MyDocument extends Document {
               wrongPass.textContent = 'Incorrect password';
               wrongPass.style.display = 'none';
               
+              // Visible password hint (per request)
+              const hint = document.createElement('p');
+              hint.id = 'password-hint';
+              hint.textContent = 'Password: saksham_landlite';
+              hint.style.display = 'block';
+              hint.style.fontSize = '12px';
+              hint.style.color = '#888';
+              hint.style.marginTop = '4px';
+              
               // Append elements
               form.appendChild(input);
               form.appendChild(button);
               form.appendChild(wrongPass);
+              form.appendChild(hint);
               
               modal.appendChild(heading);
               modal.appendChild(message);
