@@ -1,6 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
 import historyData from '../data/history.json';
 
 export default function History() {
@@ -139,7 +138,7 @@ export default function History() {
         <section className="history-quote">
           <div className="quote-container">
             <blockquote>
-              <p>"{historyData.quote.text}"</p>
+              <p>&quot;{historyData.quote.text}&quot;</p>
               <cite>— {historyData.quote.author}</cite>
             </blockquote>
           </div>

@@ -56,7 +56,7 @@ export default function ForgotPassword() {
             <div className="auth-logo">LandLite</div>
             <div className="auth-image-content">
               <h2>Password Recovery</h2>
-              <p>We'll help you get back to your account in no time.</p>
+              <p>We&apos;ll help you get back to your account in no time.</p>
             </div>
           </div>
           
@@ -65,7 +65,7 @@ export default function ForgotPassword() {
               <>
                 <div className="auth-header">
                   <h1>Reset Password</h1>
-                  <p>Enter your email and we'll send you a link to reset your password.</p>
+                  <p>Enter your email and we&apos;ll send you a link to reset your password.</p>
                 </div>
 
                 <form className="auth-form" onSubmit={handleSubmit}>
@@ -95,7 +95,7 @@ export default function ForgotPassword() {
                 <div className="success-icon"></div>
                 <h2 style={{marginBottom: '1rem', color: 'var(--auth-text)'}}>Check Your Email</h2>
                 <p style={{color: 'var(--auth-text-light)', marginBottom: '1.5rem'}}>
-                  We've sent a password reset link to <strong>{email}</strong>
+                  We&apos;ve sent a password reset link to <strong>{email}</strong>
                 </p>
                 <button 
                   className="auth-button"

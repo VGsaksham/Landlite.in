@@ -13,7 +13,7 @@ export default function Contact() {
   const [formErrors, setFormErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
-  const [submitError, setSubmitError] = useState(false);
+  const [submitError] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -101,7 +101,7 @@ export default function Contact() {
         <section className="contact-hero" aria-label="Contact page header">
           <div className="contact-hero-content">
             <h1 data-text="Get in Touch">Get in Touch</h1>
-            <p>We'd love to hear from you</p>
+            <p>We&apos;d love to hear from you</p>
           </div>
         </section>
 

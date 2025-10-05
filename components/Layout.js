@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCog, faQuestionCircle, faBell, faSearch, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faCog, faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faLinkedinIn, faPinterestP } from '@fortawesome/free-brands-svg-icons';
 import MobileNav from './MobileNav';
 

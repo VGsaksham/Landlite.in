@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
@@ -131,7 +131,7 @@ export default function Login() {
             </form>
 
             <div className="auth-footer">
-              Don't have an account? <Link href="/signup">Sign Up</Link>
+              Don&apos;t have an account? <Link href="/signup">Sign Up</Link>
             </div>
           </div>
         </div>

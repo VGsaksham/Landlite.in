@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCog, faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
-import { faInstagram, faLinkedinIn, faPinterestP } from '@fortawesome/free-brands-svg-icons';
+ 
 import homeData from '../data/home.json';
 
 export default function Home() {

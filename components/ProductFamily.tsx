@@ -14,7 +14,6 @@ interface Product {
 
 interface ProductFamilyProps {
   title: string;
-  description: string;
   products: Product[];
   category: string;
   family: string;
@@ -22,7 +21,6 @@ interface ProductFamilyProps {
 
 const ProductFamily: React.FC<ProductFamilyProps> = ({
   title,
-  description,
   products,
   category,
   family,

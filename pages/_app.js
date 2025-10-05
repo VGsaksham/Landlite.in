@@ -10,7 +10,7 @@ import '../styles/mobile-nav.css';
 import Layout from '../components/Layout';
 import { config } from '@fortawesome/fontawesome-svg-core';
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import { useEffect } from 'react';
+ 
 
 // Tell Font Awesome to skip adding the CSS automatically 
 // since it's already imported above
