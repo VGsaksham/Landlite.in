@@ -182,7 +182,7 @@ export default function Contact() {
                 
                 {submitSuccess && (
                   <div className="success-message">
-                    <p>Thank you for your message. We'll get back to you shortly.</p>
+                    <p>Thank you for your message. We&apos;ll get back to you shortly.</p>
                   </div>
                 )}
                 

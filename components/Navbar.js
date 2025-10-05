@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faCog, faQuestionCircle } from '@fortawesome/free-solid-svg-icons';
+ 
 
 export default function Navbar() {
   const router = useRouter();
