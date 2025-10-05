@@ -27,16 +27,16 @@ if %ERRORLEVEL%==0 (
 
 set MSG=%~1
 if "%MSG%"=="" (
-  %PYTHON% "scripts/git_sync.py" --set-origin
+  %PYTHON% "scripts/git_sync.py" --set-origin --branch main
 ) else (
-  %PYTHON% "scripts/git_sync.py" --set-origin --message "%MSG%"
+  %PYTHON% "scripts/git_sync.py" --set-origin --branch main --message "%MSG%"
 )
 
 set EXITCODE=%ERRORLEVEL%
 
 echo.
 if %EXITCODE%==0 (
-  echo [git-sync] Completed successfully.
+  echo [git-sync] Completed successfully on branch main.
 ) else (
   echo [git-sync] Failed with exit code %EXITCODE%.
 )
